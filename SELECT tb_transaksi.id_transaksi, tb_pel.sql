@@ -1,0 +1,1 @@
+SELECT tb_transaksi.id_transaksi, tb_pelanggan.nama_pelanggan, tb_buku.nama_buku, tb_transaksi.harga_saat_ini, tb_transaksi.jumlah, tb_transaksi.total_pembayaran FROM tb_buku INNER JOIN tb_transaksi ON tb_buku.id_buku = tb_transaksi.id_buku INNER JOIN tb_pelanggan ON tb_pelanggan.id_pelanggan = tb_pelanggan.id_pelanggan;
